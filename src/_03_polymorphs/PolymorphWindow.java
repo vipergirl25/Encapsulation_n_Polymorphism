@@ -25,7 +25,7 @@ public class PolymorphWindow extends JPanel implements ActionListener{
     Polymorph m2 = new RedPolymorph(25, 32, 80, 80);
     Polymorph m3 = new CirclePolymorph(76, 32, 123, 123);
     Polymorph m4 = new MousePolymorph(450, 450, 400, 50);
-    Polymorph m5 = new MovingMorph(200, 134, 350,350);
+    Polymorph m5 = new MovingMorph(9, 9, 350,350);
     Polymorph m6 = new JOPolymorph(250, 250, 550, 550);
     Polymorph m7 = new ImagePolymorph(14, 10, 250, 250);
     

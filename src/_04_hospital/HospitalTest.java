@@ -97,8 +97,29 @@ assertTrue(testDoctor.getPatients().size() == 3);
 
 	public void test8Patients() throws Exception {
 		// TODO: add 3 doctors to hospital
-
+		testHospital.addDoctor(new Doctor());
+		testHospital.addDoctor(new Doctor());
+		testHospital.addDoctor(new Doctor());
+//		Doctor josephsheridan = new Doctor();
+//		Doctor lauren = new Doctor();
+//		Doctor rosa = new Doctor();
 		// TODO: add 8 patients to hospital
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+		testHospital.addPatient(new Patient());
+//		Patient e = new Patient();
+//		Patient c = new Patient();
+//		Patient a = new Patient();
+//		Patient an = new Patient();
+//		Patient j = new Patient();
+//		Patient m = new Patient();
+//		Patient k = new Patient();
+//		Patient newa = new Patient();
 
 		// hospital assigns patients to doctors
 		testHospital.assignPatientsToDoctors();
